@@ -1,0 +1,71 @@
+<html lang="en">
+    <head>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styel.css">
+    <title>exam-js</title>
+</head>
+
+<body>
+
+    <div class="loding position-fixed top-0 start-0 end-0 bottom-0 bg-black justify-content-center align-items-center" style="display:none">
+        <i class="fa fa-spinner fa-spin fa-5x"></i>
+    </div>
+    
+    <div class="min-vh-100 position-relative">
+        <div class="icon-loding  top-0 start-0 end-0 bottom-0 justify-content-center align-items-center" style="display: none" >
+            <i class="fa fa-spinner fa-spin fa-5x"></i>
+        </div>
+<!----------------------------------------------------- end lodin-screen-------------------------------------------------------------->
+
+    <div class="sidebar-Links min-vh-100 position-fixed d-flex top-0" style="left: -256.562px;">
+        <div class="sidebar  d-flex flex-column justify-content-between min-vh-100 p-4">
+            <div class="links">
+                <ul class=" list-unstyled p-5">
+                    <li onclick="showSearchInputs(); closeSidebar()" class="py-2  cur" >Search</li>
+                    <li onclick="getCategories(); closeSidebar()" class="py-2  cur" >Categories</li>
+                    <li onclick="getArea(); closeSidebar()" class="py-2  cur" >Area</li>
+                    <li onclick="getIngredients(); closeSidebar()" class="py-2  cur" >Ingredients</li>
+                    <li onclick="contactUs(); closeSidebar()" class="py-2  cur" >Contact Us</li>
+                </ul>
+            </div>
+            
+        </div>
+        <div class="nav-header d-flex flex-column justify-content-between py-4 text-center px-2 bg-white text-black">
+            <img class="logo-sidebar" src="logoooo/logo.png" alt="" srcset="">
+            <i class="fa-solid open-close-icon fa-align-justify fa-2x"></i>
+            <div>
+                <i class="fa-solid fa-globe d-block"></i>
+                <i class="fa-solid fa-share-nodes"></i>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="container w-75" id="serch">
+       
+    </div>
+
+    
+        
+        
+    
+        <section class="container">
+            <div class="row mt-3 g-4 " id="row">
+        
+        </div>
+    </section>
+
+
+    
+
+    
+
+
+
+    <script src="J-S/jquery-3.7.1.min.js"></script>
+    <script src="J-S/bootstrap.bundle.min.js"></script>
+    <script src="J-S/main.js"></script>
+
+
+</body></html>
